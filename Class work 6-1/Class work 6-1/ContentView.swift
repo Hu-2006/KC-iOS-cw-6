@@ -50,7 +50,7 @@ struct ContentView: View {
         
     }
     func BMICalculator(height: Double , wieght: Double){
-        var katkoot = wieght/(height * height)
+        let katkoot = wieght/(height * height)
     
     if katkoot <= 20 {
     status="ضعيف"
